@@ -21,10 +21,7 @@ This override of the FQDN send by the client is allowed as specified in RFC4702 
 **The hook is currently only implemented for IPv4 yet. An update for IPv6 will follow**
 
 ## Build
-This repository contains a prebuild version for x86_64 and some Kea versions as a release.
-
-For different platforms or versions you've to compile the hook on your own.
- You need to install the following requirements. The `isc-kea-dev` package can be installed from the Kea Repository as described here: https://kea.readthedocs.io/en/latest/arm/install.html 
+You need to install the following requirements. The `isc-kea-dev` package can be installed from the Kea Repository as described here: https://kea.readthedocs.io/en/latest/arm/install.html 
 ```
 apt-get install cmake make g++ libboost-dev isc-kea-dev
 ```
